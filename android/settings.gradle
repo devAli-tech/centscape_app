@@ -44,7 +44,7 @@ if (getRNMinorVersion() >= 75) {
   }
 }
 
-rootProject.name = 'Centscape'
+rootProject.name = 'UnifiedWishlist'
 
 dependencyResolutionManagement {
   versionCatalogs {

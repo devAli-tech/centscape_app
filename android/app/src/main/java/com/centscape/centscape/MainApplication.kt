@@ -1,4 +1,4 @@
-package com.yourcompany.centscape
+package com.centscape.centscape
 
 import android.app.Application
 import android.content.res.Configuration
