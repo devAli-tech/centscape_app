@@ -16,9 +16,9 @@ export type RootStackParamList = {
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 const Tab = createBottomTabNavigator();
-const HEADER_BG = "#F2F7F4";   // matches your screen’s light green background accents
-const TITLE_COLOR = "#194532"; // same as styles.title in AddItemScreen
-const TINT = "#1E5A45";        // back arrow / interactive tint (your button color)
+const HEADER_BG = "#F2F7F4";   
+const TITLE_COLOR = "#194532"; 
+const TINT = "#1E5A45";       
 
 function Tabs() {
   return (
