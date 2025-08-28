@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Unified Wishlist",
+    "slug": "unified-wishlist",
+    "scheme": "centscape",
+    "plugins": ["expo-dev-client"],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "android": {
+      "package": "com.centscape.centscape",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "category": ["BROWSABLE", "DEFAULT"],
+          "data": [{ "scheme": "centscape" }]
+        }
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.centscape.centscape"
+    },
+    "assetBundlePatterns": ["**/*"]
+  }
+}
