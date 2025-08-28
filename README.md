@@ -17,3 +17,5 @@ xcrun simctl openurl booted "centscape://add?url=https%3A%2F%2Fwww.w3.org%2FStyl
 # Android emulator
 adb shell am start -a android.intent.action.VIEW -d "centscape://add?url=https%3A%2F%2Fwww.bhphotovideo.com%2Fc%2Fproduct%2F1617875-REG%2Fapple_airpods_max_sky_blue.html"
 ```
+# AI usage
+Used prompts for code optimizations, regular expression and took help in revamping UI screens
